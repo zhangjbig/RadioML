@@ -39,7 +39,7 @@ Options:
 ##### Examples
 Rscript .\RadioML_main.R -f demo_feature_data.txt -p prefix -t 5 -n 1000
 
-#### get the high frequency featurs and related coefficient
+#### Extract robust radiomics features and the corresponding coefficients
 Usage: .\RadioML_features.R [options]
 Options:
         -p PREFIX, --prefix=PREFIX
@@ -57,7 +57,7 @@ Options:
 Rscript .\RadioML_features.R -p TIANTAN -t 5 -n 1000 -R TIANTAN_1000_5_training.RData
 
 
-#### Predict the Risk score of the samples
+#### Calculate the Risk score of the samples
 Usage: .\Risk_score.R [options]
 Options:
         -f FILE, --file=FILE
